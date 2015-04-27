@@ -6,7 +6,7 @@ describe(Triangle) do
   describe("#triangle?") do
     it("returns wether it is a triangle or not") do
       new_triangle = Triangle.new(2,2,2)
-      expect(new_triangle.triangle?()).to(eq("This is an equilateral triangle"))
+      expect(new_triangle.triangle?()).to(eq(true))
     end
   end
   describe("#type") do
